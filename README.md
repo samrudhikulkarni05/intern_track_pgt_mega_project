@@ -179,6 +179,16 @@ It converts raw intern data into:
 | 🧑‍💻 IDE | VS Code |
 
 ---
+## 👥 Project Team & Roles
+
+| 👤 Team Member | 🎯 Role | 🛠️ Key Responsibilities |
+|--------------|--------|------------------------|
+| **Samrudhi Kulkarni** | **Team Lead (AIML)**<br>System Architect<br>Data Analyst<br>Data Visualization Lead | Overall project leadership, system architecture design, data analysis, visualization planning, task allocation, mentor coordination, progress monitoring, and final project integration |
+| **Pramila Chandanshive** | **Co-Lead**<br>Database Handler<br>UI Developer | Supported team leadership, managed database and data operations, designed and developed UI components, and integrated frontend with backend |
+| **Sakshi Tamshetti** | **ML Engineer**<br>Backend & API Developer | Developed machine learning models, implemented recommendation logic, handled backend processing, and designed and integrated APIs |
+| **Rutuja Raut** | **Documentation Lead & Tester** | Prepared project documentation, performed testing and validation, tracked bugs, and ensured overall system quality |
+
+---
 
 ## 📁 Project Structure
 
@@ -208,6 +218,7 @@ Intern-Performance-Tracking-System/
 ```
 
 ---
+
 
 ## 🚀 Installation
 
