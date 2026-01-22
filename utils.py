@@ -186,4 +186,48 @@ def create_performance_analysis_chart(attendance_data: List[Dict], performance_m
             y=durations,
             name='Duration (min)',
             marker_color='#10b981',
-           
+            text=durations,
+            textposition='auto',
+        ),
+        row=1, col=2
+    )
+    
+    fig.add_trace(
+        go.Histogram(
+            x=scores,
+            nbinsx=10,
+            name='Score Distribution',
+            marker_color='#8b5cf6'
+        ),
+        row=2, col=1
+    )
+    
+    overall_score = performance_metrics.get('overallScore', 0)
+    fig.add_trace(
+        go.Indicator(
+            mode="gauge+number",
+            value=overall_score,
+            title={"text": "Overall Score"},
+            domain={'row': 1, 'column': 1},
+            gauge={
+                'axis': {'range': [0, 10]},
+                'bar': {'color': "#6366f1"},
+                'steps': [
+                    {'range': [0, 5], 'color': "lightgray"},
+                    {'range': [5, 7], 'color': "lightyellow"},
+                    {'range': [7, 10], 'color': "lightgreen"}
+                ]
+            }
+        ),
+        row=2, col=2
+    )
+    
+    fig.update_layout(
+        height=600,
+        showlegend=False,
+        plot_bgcolor='white',
+        paper_bgcolor='white',
+        margin=dict(t=50, b=20, l=20, r=20)
+    )
+    
+    return fig
