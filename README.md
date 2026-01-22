@@ -242,14 +242,18 @@ streamlit run app.py
 
 ---
 
-## 👥 Project Team & Roles
+![Project](https://img.shields.io/badge/Project-Intern%20Performance%20Tracking-blue)
+![Team](https://img.shields.io/badge/Team-AIML-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-| 👤 Team Member | 🎯 Role | 🛠️ Key Responsibilities |
-|--------------|--------|------------------------|
-| **Samrudhi Kulkarni** | **Team Lead (AIML)**<br>System Architect<br>Data Analyst<br>Data Visualization Lead | Overall project leadership, system architecture design, data analysis, visualization planning, task allocation, mentor coordination, progress monitoring, and final project integration |
-| **Pramila Chandanshive** | **Co-Lead**<br>Database Handler<br>UI Developer | Supported team leadership, managed database and data operations, designed and developed UI components, and integrated frontend with backend |
-| **Sakshi Tamshetti** | **ML Engineer**<br>Backend & API Developer | Developed machine learning models, implemented recommendation logic, handled backend processing, and designed and integrated APIs |
-| **Rutuja Raut** | **Documentation Lead & Tester** | Prepared project documentation, performed testing and validation, tracked bugs, and ensured overall system quality |
+## 👥 Team & Roles
+
+| Name | Role | Responsibilities |
+|-----|------|------------------|
+| **Samruddhi Kulkarni** | System Architect & Data Analyst & Data Visualization Lead | Allocation and coordination with mentors, progress tracking, and final project integration |
+| **Pramila Chandanshive** | Co-Lead Database Handler & UI Developer | Supporting team lead, managed database and data operations, developed and connected UI components |
+| **Sakshi Tamshetti** | ML Engineer & Backend/API Developer | Built ML models and recommendation logic, developed backend logic and APIs |
+| **Rutuja Raut** | Deployment, Integration & Model Training & Evaluation Engineer | Model integration, API development support, training ML models, performance evaluation |
 
 ---
 
