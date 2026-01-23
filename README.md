@@ -261,6 +261,7 @@ interntrack/
 
 ---
 ## Detailed Report
+https://github.com/samrudhikulkarni05/intern_track_pgt_mega_project/blob/main/Team%20Information.pdf
 
 # 🔐 Admin Access
 
