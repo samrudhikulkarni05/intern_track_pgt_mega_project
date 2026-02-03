@@ -278,6 +278,4 @@ Default admin credentials are provided for testing:
 
 ### ⭐ If you like this project, give it a star!
 
-**PGT Global Network – AIML Mega Project**
-
 </div>
